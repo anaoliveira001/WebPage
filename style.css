@@ -1,0 +1,158 @@
+/* Change the background color of the body */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #4c4e50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #b5b9bd;
+  }
+  
+  .dark-mode button {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Style the theme toggle button */
+  #theme-toggle {
+    margin-left: auto;
+  }
+  
+  #theme-toggle::before {
+    content: "Light";
+  }
+  
+  .dark-mode #theme-toggle::before {
+    content: "Dark";
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Style the sections */
+  section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  section h1, section h2 {
+    margin-top: 0;
+    color: #333;
+  }
+
+  section img{
+    width: 250px;
+    height: 100%;
+    display: block;
+    margin: 0 auto ;
+  }
+  
+  section p {
+    line-height: 1.5;
+    color: #333;
+  }
+
+  footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #373738;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #aaabac;
+    color: #333;
+  }
